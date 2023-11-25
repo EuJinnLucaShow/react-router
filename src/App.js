@@ -16,17 +16,17 @@ function App() {
       element: <Layout />,    
       children: [
         {
-          path: "/home",
-          element: <Home />,          
+          element: <Home />,
+          index: true,
         },
-                {
+        {
           path: "/catalog",
           element: <Catalog />,          
         },
-      {
-        path: "/profile",
-        element: <Profile />,        
-      },
+        {
+          path: "/profile",
+          element: <Profile />,        
+        },
     ],
   },
   ]);
