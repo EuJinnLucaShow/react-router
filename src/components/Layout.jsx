@@ -13,7 +13,7 @@ export default function Layout() {
           isPending ? "pending" : isActive ? "active" : ""}>Profile</NavLink>
       </header>
       <main>
-      <Outlet></Outlet>
+      <Outlet/>
       </main>
     </>
   );
